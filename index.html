@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yevheniy Bespalov - Java/.NET Developer</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .resume-container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .name {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .title {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 0;
+        }
+        
+        
+        .left-column {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-right: 1px solid #eaeaea;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #4a6491;
+        }
+        
+        .skills-list {
+            list-style-type: none;
+        }
+        
+        .skill-item {
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .skill-category {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .skill-tag {
+            background: #e9ecef;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.85rem;
+        }
+        
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+       
+        .right-column {
+            padding: 30px;
+        }
+        
+        .job {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .job:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .company {
+            font-weight: 500;
+            color: #4a6491;
+        }
+        
+        .date {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-top: 3px;
+        }
+        
+        .job-description {
+            margin-top: 10px;
+        }
+        
+        .job-description ul {
+            padding-left: 20px;
+        }
+        
+        .job-description li {
+            margin-bottom: 5px;
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .degree {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .institution {
+            color: #4a6491;
+        }
+        
+        
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            .left-column {
+                border-right: none;
+                border-bottom: 1px solid #eaeaea;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header class="header">
+            <h1 class="name">YEVIENIY BESPALOV</h1>
+            <div class="title">JAVA/.NET DEVELOPER</div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>Warsaw, 05077 Poland</span>
+                </div>
+                <div class="contact-item">
+                    <span>+48571020600</span>
+                </div>
+                <div class="contact-item">
+                    <span>yevbes@gmail.com</span>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="left-column">
+                <section class="section">
+                    <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
+                    <p>Developer with experience in Java and .NET technologies. Able to quickly learn new skills and apply them to practical use. Excellent team player with knowledge of development tools and languages. Combines technical background with practical experience in digital marketing.</p>
+                </section>
+                
+                <section class="section">
+                    <h2 class="section-title">TECHNICAL SKILLS</h2>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-category">Programming Languages</div>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">C#</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-category">Frameworks & Technologies</div>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Spring</span>
+                                <span class="skill-tag">Hibernate</span>
+                                <span class="skill-tag">JSP</span>
+                                <span class="skill-tag">.NET Core</span>
+                                <span class="skill-tag">ASP.NET MVC</span>
+                                <span class="skill-tag">Entity Framework</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-category">Databases & Tools</div>
+                            <div class="skill-tags">
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">JDBC</span>
+                                <span class="skill-tag">XML</span>
+                                <span class="skill-tag">JSON</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-category">Development Tools</div>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">SVN</span>
+                                <span class="skill-tag">Maven</span>
+                                <span class="skill-tag">Gradle</span>
+                                <span class="skill-tag">Jira</span>
+                                <span class="skill-tag">Apache Tomcat</span>
+                                <span class="skill-tag">JUnit</span>
+                                <span class="skill-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="section">
+                    <h2 class="section-title">LANGUAGES</h2>
+                    <div class="language-item">
+                        <span>Ukrainian</span>
+                        <span>Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span>English</span>
+                        <span>B2</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Polish</span>
+                        <span>B2</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Russian</span>
+                        <span>Fluent</span>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="right-column">
+                <section class="section">
+                    <h2 class="section-title">WORK EXPERIENCE</h2>
+                    
+                    <div class="job">
+                        <div class="job-title">Media Buyer</div>
+                        <div class="company">Moneybadgers</div>
+                        <div class="date">08/2023 – 10/2025</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Developed and optimized advertising campaigns across multiple platforms</li>
+                                <li>Conducted A/B testing of creatives and landing pages</li>
+                                <li>Analyzed key performance metrics (CPA, ROI, CTR) and prepared regular reports</li>
+                                <li>Managed advertising budgets and optimized spending efficiency</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-title">Junior .NET Developer</div>
+                        <div class="company">Inspirit – Ukraine</div>
+                        <div class="date">06/2022 – 01/2023</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Fixed bugs and implemented new features in existing applications</li>
+                                <li>Performed code refactoring to improve system performance</li>
+                                <li>Quickly adapted to new technologies and implemented them in daily tasks</li>
+                                <li>Worked flexible hours including nights and weekends when required</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-title">Junior Java Developer</div>
+                        <div class="company">NDA</div>
+                        <div class="date">01/2022 – 05/2022</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Developed and maintained trading bots for cryptocurrency exchanges</li>
+                                <li>Implemented API integrations with trading platforms</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-title">Java Trainee</div>
+                        <div class="date">09/2021 – 01/2022</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Implemented new functionality including search features and form validation</li>
+                                <li>Fixed bugs in both frontend and backend components</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-title">CEO</div>
+                        <div class="company">Salonko – Ukraine</div>
+                        <div class="date">08/2014 – 12/2020</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Managed wholesale and retail operations</li>
+                                <li>Worked directly with clients and participated in industry exhibitions</li>
+                                <li>Maintained and updated company website</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="section">
+                    <h2 class="section-title">EDUCATION</h2>
+                    
+                    <div class="education-item">
+                        <div class="degree">Master of Arts in Astronomy and Space Physics</div>
+                        <div class="institution">Taras Shevchenko National University of Kyiv, Ukraine</div>
+                        <div class="date">09/2009 – 07/2014</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="degree">Additional Education</div>
+                        <div class="institution">JavaRush – Practical training with 1200+ completed tasks</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
